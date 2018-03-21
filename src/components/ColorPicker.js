@@ -50,7 +50,7 @@ const ColorPicker = ({
         onChange={c => {
           const newValue = converters[convert](c)
           setValue(newValue)
-          onChange(newValue)
+          onChange(c)
         }}
       />
     )}
