@@ -37,7 +37,7 @@ const ColorPicker = ({
       onClick={() => setShowPicker(true)}
       onChange={e => {
         setValue(e.target.value)
-        onChange(e.target.value)
+        onChange(e)
       }}
     />
     {showPicker && (
